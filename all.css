@@ -1,0 +1,236 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #282932; }
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration:none
+}
+html, body { min-width: 750px;}
+@media only screen and (min-width: 750px) {
+    html, body { min-width: 750px; }
+}
+
+
+img {
+    max-width: 100%; }
+
+li{list-style:none}
+
+img{vertical-align:top;border:none}
+.navigation{
+    position:relative;
+    display:flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navbar {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+   }
+.navbar li{
+    float: left;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+.navbar a{
+    color: black;
+}
+.intro-area{
+    background-image: url("img/banner-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    -ms-flex-align:center;
+    align-items:center;
+}
+.intro-content{
+    position: relative;
+    text-align: center;
+}
+.intro-content h1{
+    position: relative;
+    top: 140px;
+}
+.intro-content .intro-list  {
+    position: relative;
+    top: 300px;
+    display: flex;
+    justify-content:center;
+}
+.intro-content .intro-list  .input-box button{
+    height: 80px;
+    width: 325px;
+    background: #F7B614;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    font-size: 18px;
+    text-align:center ;
+}
+.input-box{
+    margin-left: 20px;
+}
+ .title{
+    font-size: 60px;
+    color: white;
+     text-align: center;
+}
+.intro-area .title span{
+    color: #F7B614;
+}
+
+.forms-area{
+    background-image: url("img/forms-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    -ms-flex-align:center;
+    align-items:center;
+}
+.forms-content{
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    top: 50px;
+    margin: 0px 100px  100px 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.forms-content h3{
+    color: black;
+}
+
+.question{
+    display: block;
+    font-family: "Vollkorn", serif;
+    font-size: 16px;
+    opacity: .8;
+    height: 120px;
+    text-align: left;
+    padding-left: 50px;
+}
+.question select{
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    vertical-align: middle;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #aaa;
+    text-shadow: none;
+    border-radius: 4px;
+    transition: box-shadow 0.25s ease;
+    z-index: 2;
+}
+.question select:hover{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.question select:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #ccc;
+    top: 14px;
+    right: 10px;
+    cursor: pointer;
+    z-index: -2;
+}
+@media only screen and (min-width: 1000px) {
+.radio-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}}
+
+@media only screen and (max-width: 950px) {
+    .radio-area{
+        display: flex;
+        flex-wrap: nowrap;
+    }}
+label{
+    margin-top: 5px;
+}
+.a-radio{
+    display: none;
+}
+.b-radio{
+    display: inline-block;
+    border:1px solid #ccc;
+    width:16px;
+    height: 16px;
+    border-radius:2px;
+    vertical-align: middle;
+    margin-right: 5px;
+    position: relative;
+}
+.b-radio:before{
+    content: '';
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background: rgb(143, 188, 238);
+    position: absolute;
+    left:50%;
+    top:50%;
+    margin-left: -5px;
+    margin-top: -5px;
+    border-radius: 2px;
+    display: none;
+}
+.a-radio:checked~.b-radio:before{
+    display: block;
+}
+.b-radio:after{
+    display: block;
+}
+
+.guidpart{
+    background-image: url("img/guid-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    -ms-flex-align:center;
+    align-items:center;
+    text-align: center;
+}
+.guid_content h3{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Vollkorn", serif;
+    padding-bottom: 17px;
+    color: #5a6268;
+}
+.guid_box{
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    margin: 0px 100px  100px 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
