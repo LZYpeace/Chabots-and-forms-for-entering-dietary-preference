@@ -1,0 +1,11 @@
+insert into questions.measures (id, measure) values (1, '1 small bowl');
+insert into questions.measures (id, measure) values (2, '1 large bowl');
+insert into questions.measures (id, measure) values (3, '1 slice');
+insert into questions.measures (id, measure) values (4, '1 ounce(25g)');
+insert into questions.measures (id, measure) values (5, '2 ounce');
+insert into questions.measures (id, measure) values (6, '1 medium glass');
+insert into questions.measures (id, measure) values (7, '1 wine glass');
+insert into questions.measures (id, measure) values (8, '50g');
+insert into questions.measures (id, measure) values (9, '100g');
+insert into questions.measures (id, measure) values (10, '150g');
+insert into questions.measures (id, measure) values (11, '200g');

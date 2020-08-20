@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guid</title>
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+<div class="navigation">
+    <!--logo part-->
+    <a class="logo" href="newpage.jsp"><img src="img/newcastle.jpg" alt="" height="70" width="240"></a>
+    <!--nav part-->
+    <div class="navbar">
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="http://localhost:8080/FinalProject/list">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="guid.jsp">Guid</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.jsp">Help</a>
+            </li>
+        </ul>
+    </div>
+    <!--guid part-->
+<div class="guidpart">
+    <div class="guid_content">
+        <h3 class="">About The Chatbot</h3>
+        <div class="guid_box">
+            <p>We would like you to describe your usual diet with the chatbot, give short and clear answer based
+            on the chatbot's questions. The chatbot could help you complete the questionnaires more convenient and faster.
+
+            </p>
+        </div>
+        <h3 class="">About The Forms</h3>
+        <div class="guid_box">
+            <p>We would like you to describe your usual diet over the last 2-3 months. This should
+                include all your main meals, snacks and drinks which you had at home or away from home e.g. at work, at restaurants or cafes and with friends and family.
+                For Every line in the questionnaire, we would like you to answer two things.
+            <ul>
+                <li>
+                    how much of the food you had in a day you ate the food, and
+                </li>
+                <li>
+                    how many days a week you had the food.
+                </li>
+            </ul>
+            </p>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>

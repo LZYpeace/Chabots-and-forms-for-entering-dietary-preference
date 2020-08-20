@@ -1,0 +1,14 @@
+insert into questions.classify (id, classifyname) values (1, 'Breakfast cereals');
+insert into questions.classify (id, classifyname) values (2, 'Bread');
+insert into questions.classify (id, classifyname) values (3, 'Milk');
+insert into questions.classify (id, classifyname) values (4, 'Yogurt,cheese and eggs');
+insert into questions.classify (id, classifyname) values (5, 'Snacks&nuts');
+insert into questions.classify (id, classifyname) values (6, 'Bakery');
+insert into questions.classify (id, classifyname) values (7, 'Fruit');
+insert into questions.classify (id, classifyname) values (8, 'Fresh Meat');
+insert into questions.classify (id, classifyname) values (9, 'Seafood');
+insert into questions.classify (id, classifyname) values (10, 'Fresh vegetables');
+insert into questions.classify (id, classifyname) values (11, 'Ready meals');
+insert into questions.classify (id, classifyname) values (12, 'Fast Food');
+insert into questions.classify (id, classifyname) values (13, 'Drink');
+insert into questions.classify (id, classifyname) values (14, 'Alcoholic Drinks');

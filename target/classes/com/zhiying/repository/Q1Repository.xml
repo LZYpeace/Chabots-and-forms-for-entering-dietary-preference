@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhiying.repository.Q1Repository">
+    <insert id="save" parameterType="com.zhiying.entity.Answer">
+        insert into storedata(subid,Measure,Frequency) values (#{subId},#{measure},#{frequency})
+    </insert>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhiying.repository.Question1Repository">
+    <resultMap id="questionmap" type="com.zhiying.entity.Question">
+        <id column="classifyId" property="classifyId"></id>
+        <result column="classifyName" property="classifyName"></result>
+        <collection property="Subclasses" ofType="com.zhiying.entity.Subclasses">
+            <id column="subClassifyId" property="subClassifyId"/>
+            <result column="subClassify" property="subClassify"/>
+        </collection>
+    </resultMap>
+
+    <select id="findBreakfast" resultMap="questionmap">
+select classify.id as classifyId , classifyname as classifyName, subclassify.id as subClassifyId, detail as subClassify from classify left join subclassify on classify.id = classifyid ;
+    </select>
+</mapper>
